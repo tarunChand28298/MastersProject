@@ -1,0 +1,46 @@
+<!-- <script type="text/javascript" src="{{url_for('static', filename='script/index.js')}}"></script> -->
+<!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style/index.css')}}"> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Updater WebUI</title>
+</head>
+<body>
+    <h1>Updater WebUI</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="text" name="deviceName" id="deviceName" placeholder="Device Name">
+        <input type="submit" value="Update">
+    </form>
+
+    <div id="response"></div>
+
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            
+            var formData = new FormData();
+            var deviceNameInput = document.getElementById("deviceName");
+
+            if (deviceNameInput.value.length > 0) {
+                formData.append("deviceName", deviceNameInput.value);
+
+                // Make a POST request to the server
+                fetch("/update", {
+                    method: "POST",
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("response").innerText = "Update Status: " + data.status + "\nFile Data: " + data.data;
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+            } else {
+                document.getElementById("response").innerText = "Please select a device name to update.";
+            }
+        });
+    </script>
+</body>
+</html>

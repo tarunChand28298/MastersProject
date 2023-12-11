@@ -1,0 +1,23 @@
+FROM python:3.8-slim
+
+WORKDIR /root
+
+RUN apt update
+RUN apt install wget -y
+RUN wget https://dist.ipfs.tech/kubo/v0.23.0/kubo_v0.23.0_linux-amd64.tar.gz
+RUN tar -xvzf kubo_v0.23.0_linux-amd64.tar.gz
+RUN chmod +x /root/kubo/install.sh
+RUN /root/kubo/install.sh
+RUN rm /root/kubo_v0.23.0_linux-amd64.tar.gz
+RUN rm -r /root/kubo
+
+RUN python -m ensurepip
+RUN pip install Flask
+
+COPY start.sh /root/start.sh
+COPY server.py /root/server.py
+
+EXPOSE 4001 4001/udp 5001 8080 8081 54000
+
+RUN chmod +x /root/start.sh
+ENTRYPOINT ["/root/start.sh"]

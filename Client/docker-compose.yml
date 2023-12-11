@@ -1,0 +1,31 @@
+version: '3'
+services:
+  ipfs_client:
+    build:
+      context: ./IpfsClient
+    ports:
+      - '4001:4001'
+      - '5001:5001'
+    environment:
+      - SERVER_IP=3.137.194.137
+    container_name: ipfs_client
+
+  geth_node:
+    build:
+      context: ./GethNode
+    ports:
+      - '8545:8545'
+      - '8546:8546'
+      - '30302:30302'
+    environment:
+      - SERVER_IP=3.137.194.137
+    container_name: geth_node
+
+  updater:
+    build:
+      context: ./Updater
+    ports:
+      - '54000:54000'
+    environment:
+      - SERVER_IP=3.137.194.137
+    container_name: updater

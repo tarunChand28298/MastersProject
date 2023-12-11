@@ -1,0 +1,24 @@
+FROM ethereum/solc:0.8.0-alpine as solc_builder
+FROM ethereum/client-go:alltools-v1.13.1
+COPY --from=solc_builder /usr/local/bin/solc /usr/local/bin/solc
+
+RUN apk add --update python3
+RUN python3 -m ensurepip
+RUN pip3 install web3 Flask
+
+WORKDIR /root
+
+COPY data /root/data
+COPY deployContract.py /root/deployContract.py
+COPY smartContract.sol /root/smartContract.sol
+COPY genesis.json /root/genesis.json
+COPY password.txt /root/password.txt
+COPY start.sh /root/start.sh
+COPY compileAndDeploy.sh /root/compileAndDeploy.sh
+
+EXPOSE 8545 8546 30303 30303/udp 54001 30301
+
+RUN chmod +x /root/start.sh
+RUN chmod +x /root/compileAndDeploy.sh
+
+ENTRYPOINT ["/root/start.sh"]

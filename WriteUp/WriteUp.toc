@@ -1,0 +1,34 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Related Work}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Delivery}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Verification}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Blockchain implementations}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Frameworks}{12}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Summary}{13}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Testbed Implementation}{14}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Definitions}{14}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Blockchain}{14}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Ethereum}{15}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Geth}{17}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Geth Private Network}{18}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Decentralized Storage}{18}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}IPFS}{19}{subsubsection.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.7}IPFS Private Network}{20}{subsubsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.2}Design}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Data Flow}{22}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Pseudocode}{23}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Development}{25}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Server Side}{25}{subsubsection.3.5.1}%
+\contentsline {paragraph}{Geth Signer}{26}{paragraph*.15}%
+\contentsline {paragraph}{IPFS Node}{27}{paragraph*.16}%
+\contentsline {paragraph}{Web Server}{27}{paragraph*.17}%
+\contentsline {subsubsection}{\numberline {3.5.2}Client Side}{27}{subsubsection.3.5.2}%
+\contentsline {paragraph}{Geth Node}{28}{paragraph*.18}%
+\contentsline {paragraph}{IPFS Node}{28}{paragraph*.19}%
+\contentsline {paragraph}{Updater}{28}{paragraph*.20}%
+\contentsline {section}{\numberline {4}Deployment}{28}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Starting the testbed in AWS}{28}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}User interaction with the testbed}{31}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusion}{32}{section.5}%
+\contentsline {section}{\numberline {6}Future Work}{33}{section.6}%
+\contentsline {section}{\numberline {7}References}{34}{section.7}%

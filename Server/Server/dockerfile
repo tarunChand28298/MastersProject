@@ -1,0 +1,15 @@
+FROM python:3.8-slim
+
+RUN apt update
+RUN apt install git -y
+RUN pip install web3 Flask git+https://github.com/tarunChand28298/py-ipfs-http-client-version-temporary-fix.git
+
+WORKDIR /root
+
+COPY serverScript.py /root/serverScript.py
+COPY templates /root/templates
+COPY static /root/static
+
+EXPOSE 54002
+
+CMD ["python", "serverScript.py"]

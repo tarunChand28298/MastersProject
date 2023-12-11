@@ -1,0 +1,496 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nhtsa}{report}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{hash=ddfe12f20a54febdae69ce9018467035}{%
+           family={Bielawski},
+           familyi={B\bibinitperiod},
+           given={Russ},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6e0ade0eb01891248e93a64b5ca2ef9f}{%
+           family={Gaynier},
+           familyi={G\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0f78819c38a2ffb729436b21dd5aba81}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod}}}%
+        {{hash=918a8eac86a24685fbffa73ba8512c82}{%
+           family={Lauzon},
+           familyi={L\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd6cb5a36f61c39090600eedfc3ef45c}{%
+           family={Weimerskirch},
+           familyi={W\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {United States. Department of Transportation. National Highway Traffic Safety~…}%
+      }
+      \strng{namehash}{3779f34b8b2001a435cfd23474cc7bc1}
+      \strng{fullhash}{607aa1c9dbddb87ee543e67e7aeee1c7}
+      \strng{bibnamehash}{3779f34b8b2001a435cfd23474cc7bc1}
+      \strng{authorbibnamehash}{3779f34b8b2001a435cfd23474cc7bc1}
+      \strng{authornamehash}{3779f34b8b2001a435cfd23474cc7bc1}
+      \strng{authorfullhash}{607aa1c9dbddb87ee543e67e7aeee1c7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cybersecurity of Firmware Updates}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{blockchainupdate}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ae3798aa4da5e2772b97585c9cc5b864}{%
+           family={Tsaur},
+           familyi={T\bibinitperiod},
+           given={Woei-Jiunn},
+           giveni={W\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=9fde2773c219b883c845f549f41f5ef5}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Jen-Chun},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=e731959be96016339cf4f94a6f0ad2cf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chin-Ling},
+           giveni={C\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{6db40831b65269b2898c78220f262efe}
+      \strng{fullhash}{6db40831b65269b2898c78220f262efe}
+      \strng{bibnamehash}{6db40831b65269b2898c78220f262efe}
+      \strng{authorbibnamehash}{6db40831b65269b2898c78220f262efe}
+      \strng{authornamehash}{6db40831b65269b2898c78220f262efe}
+      \strng{authorfullhash}{6db40831b65269b2898c78220f262efe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{2}
+      \field{title}{A highly secure IoT firmware update mechanism using blockchain}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{pages}{530}
+      \range{pages}{1}
+    \endentry
+    \entry{otaupdate}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=4a77119ba03492b1276c2371600624f5}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xinchi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=116a649948ec15eb5468531aa6a8f9dc}{%
+           family={Alqahtani},
+           familyi={A\bibinitperiod},
+           given={Sarra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a2719e02bf96a5cb0de55b5466a39ebc}{%
+           family={Gamble},
+           familyi={G\bibinitperiod},
+           given={Rose},
+           giveni={R\bibinitperiod}}}%
+        {{hash=88b90810bb093da0031f22fc55ee87a6}{%
+           family={Papa},
+           familyi={P\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6db05ba1d3a15c24b352bee0ebcb4853}
+      \strng{fullhash}{4bf8fe128c6dedfa00783325b63af406}
+      \strng{bibnamehash}{6db05ba1d3a15c24b352bee0ebcb4853}
+      \strng{authorbibnamehash}{6db05ba1d3a15c24b352bee0ebcb4853}
+      \strng{authornamehash}{6db05ba1d3a15c24b352bee0ebcb4853}
+      \strng{authorfullhash}{4bf8fe128c6dedfa00783325b63af406}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Conference on Omni-Layer Intelligent Systems}
+      \field{title}{Securing over-the-air IoT firmware updates using blockchain}
+      \field{year}{2019}
+      \field{pages}{164\bibrangedash 171}
+      \range{pages}{8}
+    \endentry
+    \entry{verification}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=51caebb4685e12d4d59fe20ecdcd6f53}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8861de315643c8128e894270de127894}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Raj},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6ffd2dc090653fde697cb65fdcd8416b}{%
+           family={Sherrell},
+           familyi={S\bibinitperiod},
+           given={Branden},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \strng{fullhash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \strng{bibnamehash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \strng{authorbibnamehash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \strng{authornamehash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \strng{authorfullhash}{e71ec658f794e6dbd726dbba2edc7b4f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{MILCOM 2018-2018 IEEE Military Communications Conference (MILCOM)}
+      \field{title}{Runtime state verification on resource-constrained platforms}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{mad}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=aacdd07506f4e3cb8e73164728bfb8c3}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=57836b044177d0b981ebddc703431b11}{%
+           family={Babun},
+           familyi={B\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9484f736511d4f01d40093c8de614263}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8263c1361bd6cf8e1cb7750b6fcb059d}{%
+           family={Helble},
+           familyi={H\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d9dd49d53aecfef55ce0af3e53fb233b}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{86e27998fe35ececfdf4c9cd9ba529d1}
+      \strng{fullhash}{3b38caf433738ccb3d22cd17f657715b}
+      \strng{bibnamehash}{86e27998fe35ececfdf4c9cd9ba529d1}
+      \strng{authorbibnamehash}{86e27998fe35ececfdf4c9cd9ba529d1}
+      \strng{authornamehash}{86e27998fe35ececfdf4c9cd9ba529d1}
+      \strng{authorfullhash}{3b38caf433738ccb3d22cd17f657715b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE Globecom Workshops (GC Wkshps)}
+      \field{title}{MAD-IoT: Memory anomaly detection for the Internet of Things}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{adoption}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2be3330a64acb223d01bfc30c3b7f4fb}{%
+           family={Uddin},
+           familyi={U\bibinitperiod},
+           given={Md\bibnamedelima Ashraf},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9317ac5e48d9f4a294797cd75eae0cc3}{%
+           family={Stranieri},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e3a027f3576d3bd051b3fc7b70d397a}{%
+           family={Gondal},
+           familyi={G\bibinitperiod},
+           given={Iqbal},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b90572a420da10989e28cd02dbc7b06e}{%
+           family={Balasubramanian},
+           familyi={B\bibinitperiod},
+           given={Venki},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0de8ae7b0e0e0d71441c1ec0ec233114}
+      \strng{fullhash}{3de29aaaa0297c23bbbe82184d98e6e0}
+      \strng{bibnamehash}{0de8ae7b0e0e0d71441c1ec0ec233114}
+      \strng{authorbibnamehash}{0de8ae7b0e0e0d71441c1ec0ec233114}
+      \strng{authornamehash}{0de8ae7b0e0e0d71441c1ec0ec233114}
+      \strng{authorfullhash}{3de29aaaa0297c23bbbe82184d98e6e0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Blockchain: Research and Applications}
+      \field{number}{2}
+      \field{title}{A survey on the adoption of blockchain in iot: Challenges and solutions}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{100006}
+      \range{pages}{1}
+    \endentry
+    \entry{healthcare}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7062364bc3fd13116ddca5050f7c99b1}{%
+           family={Antwi},
+           familyi={A\bibinitperiod},
+           given={McSeth},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2758207c116078950374b6434afb2487}{%
+           family={Adnane},
+           familyi={A\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0627e1bfff17a813f7f321c4a248d48}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Farhan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7c433cb7869ddf208ffca5e68c29dc15}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Rasheed},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1167aade73826cacab81b2fedffd8b67}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Muhammad\bibnamedelima Habib},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           prefix={ur},
+           prefixi={u\bibinitperiod}}}%
+        {{hash=9b646956174ae052ab351704759fda36}{%
+           family={Kerrache},
+           familyi={K\bibinitperiod},
+           given={Chaker\bibnamedelima Abdelaziz},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{63dbabeeeec469bf72ade41b591a5e33}
+      \strng{fullhash}{7d68c006c25700c8a7e8bfab0e7aaf4c}
+      \strng{bibnamehash}{63dbabeeeec469bf72ade41b591a5e33}
+      \strng{authorbibnamehash}{63dbabeeeec469bf72ade41b591a5e33}
+      \strng{authornamehash}{63dbabeeeec469bf72ade41b591a5e33}
+      \strng{authorfullhash}{7d68c006c25700c8a7e8bfab0e7aaf4c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Blockchain: Research and Applications}
+      \field{number}{1}
+      \field{title}{The case of hyperledger fabric as a blockchain solution for healthcare applications}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{100012}
+      \range{pages}{1}
+    \endentry
+    \entry{lora}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=6252187671d37bda87c218c3f76572a2}{%
+           family={Mtetwa},
+           familyi={M\bibinitperiod},
+           given={Njabulo\bibnamedelima S},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=19fb3b81c4e8d5fc92ae1d44166f43dd}{%
+           family={Sibeko},
+           familyi={S\bibinitperiod},
+           given={Nombuso},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c160c5e5a2966a57fc4f7ecf1d61d49f}{%
+           family={Tarwireyi},
+           familyi={T\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=31615f6d2537ca85fe921b8481ca7b27}{%
+           family={Abu-Mahfouz},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={Adnan\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{76699f8f31debc602bd914668f53c5a6}
+      \strng{fullhash}{47acb7b073f6e64ee1e0fe46911ae589}
+      \strng{bibnamehash}{76699f8f31debc602bd914668f53c5a6}
+      \strng{authorbibnamehash}{76699f8f31debc602bd914668f53c5a6}
+      \strng{authornamehash}{76699f8f31debc602bd914668f53c5a6}
+      \strng{authorfullhash}{47acb7b073f6e64ee1e0fe46911ae589}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 2nd International Multidisciplinary Information Technology and Engineering Conference (IMITEC)}
+      \field{title}{OTA firmware updates for LoRaWAN using blockchain}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{ethereumWhitepaper}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=850981945102d0f671b6762173c8988a}{%
+           family={Buterin},
+           familyi={B\bibinitperiod},
+           given={Vitalik},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa265b80691610b5092f93ae4a80f9b7}
+      \strng{fullhash}{fa265b80691610b5092f93ae4a80f9b7}
+      \strng{bibnamehash}{fa265b80691610b5092f93ae4a80f9b7}
+      \strng{authorbibnamehash}{fa265b80691610b5092f93ae4a80f9b7}
+      \strng{authornamehash}{fa265b80691610b5092f93ae4a80f9b7}
+      \strng{authorfullhash}{fa265b80691610b5092f93ae4a80f9b7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{white paper}
+      \field{number}{37}
+      \field{title}{A next-generation smart contract and decentralized application platform}
+      \field{volume}{3}
+      \field{year}{2014}
+      \field{pages}{2\bibrangedash 1}
+      \range{pages}{0}
+    \endentry
+    \entry{bitcoinWhitepaper}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1977190f018b398e43ede3de043de8ea}{%
+           family={Nakamoto},
+           familyi={N\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{fullhash}{1977190f018b398e43ede3de043de8ea}
+      \strng{bibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorbibnamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authornamehash}{1977190f018b398e43ede3de043de8ea}
+      \strng{authorfullhash}{1977190f018b398e43ede3de043de8ea}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decentralized business review}
+      \field{title}{Bitcoin: A peer-to-peer electronic cash system}
+      \field{year}{2008}
+      \field{pages}{21260}
+      \range{pages}{1}
+    \endentry
+    \entry{gethDocumentation}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=94195b7b439ec3bda396c8df3d53e0c0}{%
+           family={Ethereum},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \strng{fullhash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \strng{bibnamehash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \strng{authorbibnamehash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \strng{authornamehash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \strng{authorfullhash}{94195b7b439ec3bda396c8df3d53e0c0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://geth.ethereum.org/docs/}}
+      \field{title}{Geth Documentation}
+      \field{year}{2021}
+    \endentry
+    \entry{ipfsWhitepaper}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ae8544cf985d862137480d00d30a318b}{%
+           family={Benet},
+           familyi={B\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae8544cf985d862137480d00d30a318b}
+      \strng{fullhash}{ae8544cf985d862137480d00d30a318b}
+      \strng{bibnamehash}{ae8544cf985d862137480d00d30a318b}
+      \strng{authorbibnamehash}{ae8544cf985d862137480d00d30a318b}
+      \strng{authornamehash}{ae8544cf985d862137480d00d30a318b}
+      \strng{authorfullhash}{ae8544cf985d862137480d00d30a318b}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online}
+      \field{title}{IPFS - Content Addressed, Versioned, P2P File System}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf
+      \endverb
+      \verb{url}
+      \verb https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf
+      \endverb
+    \endentry
+    \entry{storj}{manual}{}
+      \list{organization}{1}{%
+        {Storj Labs}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://docs.storj.io/}}
+      \field{title}{{Storj Official Documentation}}
+    \endentry
+    \entry{sia}{manual}{}
+      \list{organization}{1}{%
+        {Sia}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://sia.tech/docs/}}
+      \field{title}{{Sia Official Documentation}}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

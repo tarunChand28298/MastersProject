@@ -1,0 +1,10 @@
+FROM ipfs/go-ipfs
+
+WORKDIR /root
+
+COPY start.sh /root/start.sh
+
+EXPOSE 4001 5001
+
+RUN chmod +x /root/start.sh
+ENTRYPOINT ["/root/start.sh"]

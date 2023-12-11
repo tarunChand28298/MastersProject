@@ -1,0 +1,15 @@
+FROM ethereum/client-go:alltools-v1.13.1
+
+RUN apk add --update curl
+
+WORKDIR /root
+
+COPY start.sh /root/start.sh
+COPY password.txt /root/password.txt
+COPY genesis.json /root/genesis.json
+
+EXPOSE 8545 8546 30303 30303/udp
+
+RUN chmod +x /root/start.sh
+
+ENTRYPOINT ["/root/start.sh"]
